@@ -1,0 +1,10 @@
+PROGRAM GIAITHUA;
+var n:integer;
+    i:integer;
+    giaithua:float;
+begin
+    call read(n);
+    for i:=1 to n do
+    	giaithua:=i*giaithua;
+    call write(giaithua);
+end.
